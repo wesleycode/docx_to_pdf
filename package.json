@@ -1,0 +1,31 @@
+{
+  "name": "docx_to_pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon --quiet src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleycode/docx_to_pdf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleycode/docx_to_pdf/issues"
+  },
+  "homepage": "https://github.com/wesleycode/docx_to_pdf#readme",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "mammoth": "^1.8.0",
+    "pdf-lib": "^1.17.1"
+  }
+}
